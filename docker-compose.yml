@@ -1,0 +1,12 @@
+services:
+  torrent:
+    build: 
+      context: ./build
+      dockerfile: Dockerfile
+      target: torrent
+  usenext:
+    build: 
+      context: ./build
+      dockerfile: Dockerfile
+      target: usenext
+
